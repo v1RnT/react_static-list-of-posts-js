@@ -1576,4 +1576,4 @@ ratione sit numquam culpa a rem
 atque aut et`},{postId:100,id:500,name:"ex eaque eum natus",email:"Emma@joanny.ca",body:`perspiciatis quis doloremque
 veniam nisi eos velit sed
 id totam inventore voluptatem laborum et eveniet
-aut aut aut maxime quia temporibus ut omnis`}],Dc=e=>Tc.find(t=>t.id===e),jc=e=>Rc.filter(t=>t.postId===e),Oc=Mc.map(e=>({...e,user:Dc(e.userId),comments:jc(e.id)})),Fc=()=>O.jsxs("section",{className:"App",children:[O.jsx("h1",{className:"App__title",children:"Static list of posts"}),O.jsx(Lc,{posts:Oc})]});em(document.getElementById("root")).render(O.jsx(Fc,{}));
+aut aut aut maxime quia temporibus ut omnis`}],Dc=e=>Tc.find(t=>t.id===e),jc=e=>Rc.filter(t=>t.postId===e),Oc=()=>{Mc.map(e=>({...e,user:Dc(e.userId),comments:jc(e.id)}))},Fc=()=>O.jsxs("section",{className:"App",children:[O.jsx("h1",{className:"App__title",children:"Static list of posts"}),O.jsx(Lc,{posts:Oc})]});em(document.getElementById("root")).render(O.jsx(Fc,{}));
